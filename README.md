@@ -39,25 +39,25 @@ cc -o basic src/*.c
 **变量赋值**
 
 ```
-<VAR> = <EXPRESSION>
+[LET] <VAR> = <EXPRESSION>
 ```
 
-计算等式右侧的表达式，并将结果赋值到左侧变量中。
+计算等式右侧的表达式，并将结果赋值到左侧变量中。其中`LET`关键字可选。
 
 ## 输入输出
 
 **输入**
 
 ```
-INPUT <VAR>
+INPUT <VAR>[, VAR ...]
 ```
 
-从标准输入（通常是键盘）中输入一行数据到变量`<VAR>`中。
+从标准输入（通常是键盘）中输入任意多个数据到变量中。
 
 **输出**
 
 ```
-PRINT <EXPRESSION>
+PRINT <EXPRESSION>[, EXPRESSION ...]
 ```
 
 计算表达式`<EXPRESSION>`，并将结果输出到标准输出（通常是屏幕）。
