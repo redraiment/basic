@@ -23,7 +23,7 @@ cc -o basic src/*.c
 与GVBASIC相同，每一行都必须有一个“整数行号”+一行“代码”组成，例如：
 
 ```
-0001 PIRNT "HELLO WORLD"
+0001 PRINT "HELLO WORLD"
 ```
 
 为了方便对齐，行号可以有任意多个前导0；行号之后必须加上一个空格。
